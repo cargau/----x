@@ -1,3 +1,6 @@
+/**
+ * +
+ */
 function chois () {
 	
 }
@@ -6,9 +9,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(A)
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showNumber(A - A)
-    B = 0
-    A = 0
+    basic.showNumber(A * B)
 })
 input.onButtonPressed(Button.B, function () {
     B = B + 1
